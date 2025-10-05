@@ -50,7 +50,7 @@ const Navbar = () => {
                             ) : (
                                 <>
                                     <li><Link to="/">Home</Link></li>
-                                    <li><Link to="/jobs">Jobs</Link></li>
+                                    {/* <li><Link to="/jobs">Jobs</Link></li> */}
                                     <li><Link to="/services">Services</Link></li>
                                     <li><Link to="/browse">Browse</Link></li>
                                     <li><Link to="/contact">Contact us</Link></li>
@@ -126,7 +126,7 @@ const Navbar = () => {
                             ) : (
                                 <>
                                     <li><Link to="/" onClick={() => setIsOpen(false)}>Home</Link></li>
-                                    <li><Link to="/jobs" onClick={() => setIsOpen(false)}>Jobs</Link></li>
+                                    {/* <li><Link to="/jobs" onClick={() => setIsOpen(false)}>Jobs</Link></li> */}
                                     <li><Link to="/services" onClick={() => setIsOpen(false)}>Services</Link></li>
                                     <li><Link to="/browse" onClick={() => setIsOpen(false)}>Browse</Link></li>
                                     <li><Link to="/contact" onClick={() => setIsOpen(false)}>Contact us</Link></li>
